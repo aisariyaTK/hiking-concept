@@ -4,11 +4,11 @@
     box-sizing: border-box;
     font-family: 'Kalam', cursive;
 }
-.container {
+/* .container {
     max-width: 1350px;
     width: 100%;
     margin: 0 auto;
-}
+} */
 
 
 /* header */
@@ -19,7 +19,7 @@ header {
 }
 .grid-menu {
     display: grid;
-    grid-template-columns: 630px 1fr 200px;
+    grid-template-columns: 40% 1fr 20%;
 }
 .menu-bar {
     display: grid;
@@ -30,6 +30,7 @@ header {
 }
 .bran img {
     margin-top: 10px;
+    margin-left: 100px;
 }
 ul.menu-bar li {
     list-style: none;
@@ -41,6 +42,7 @@ ul.menu-bar li a {
 }
 .search {
     text-align: right;
+    margin-right: 100px;
 }
 i.fa.fa-search {
     font-size: 24px;
