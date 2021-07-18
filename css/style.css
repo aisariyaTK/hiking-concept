@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+header {
+    width: 100%;
+    height: 120px;
+}
+.grid-menu {
+    display: grid;
+    grid-template-columns: 700px 1fr 200px;
+}
+.menu-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+
+}
+.bran img {
+    margin-top: 10px;
+}
+ul.menu-bar li {
+    list-style: none;
+}
+ul.menu-bar li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #82807e;
+}
+.search {
+    text-align: right;
+}
+i.fa.fa-search {
+    font-size: 24px;
+    color: #69645f;
+    text-align: right;
+    margin-top: 32px;
+    padding: 8px 30px 8px 100px;
+    background-color: #c3bfbc;
+    border-radius: 50px;
+}
+
+/* section content */
+
+main {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.content-heading {
+    width: 100%;
+    height: 957px;
+    background-image: url("../img/background1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.heading {
+    width: 40%;
+    height: auto;
+    margin-left: 80px;
+    padding-top: 250px;
+}
+.heading h1 {
+    font-size: 100px;
+    color: #deb37e;
+}
+.heading i {
+    display: block;
+    font-size: 24px;
+    color: #54524f;
+}
+.heading span {
+    display: inline-block;
+    margin-top: 70px;
+    background-color: #fffefd;
+    padding: 10px 35px;
+    border-radius: 50px;
+    color: #776c64;
+}
+.heading i.paragraph {
+    margin-top: 50px;
+    font-size: 18px;
+    color: #54524f;
+}
+
+.let-go {
+    margin-top: 100px;
+    text-align: center;
+}
+.let-go h1 {
+    font-size: 50px;
+    color: #e2a355;
+}
+.let-go p {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #7f7770;
+}
+
+.grid-item {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 275px 275px 275px;
+    column-gap: 60px;
+    justify-content: center;
+}
+.content-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: auto;
+    background-color: #7f7770;
+}
+.item-content {
+    margin: 30px 0 40px 10px;
+}
+.item-content h3 {
+    font-size: 20px;
+}
+.item-content p {
+    font-size: 18px;
+}
+.show-more {
+    margin-top: 50px;
+    text-align: center;
+}
+.show-more span {
+    font-size: 20px;
+    background-color: #7f7770;
+    padding: 12px 40px;
+    border-radius: 50px;
+    color: #fff;
+}
+img.bg-bure1 {
+    position: absolute;
+    top: 80%;
+}
+
+
+section {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.grid-block1 {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #7f7770;
+    color: #fff;
+}
+.block {
+    margin: 200px 0 0 50px;
+}
+.block h1 {
+    font-size: 72px;
+}
+.block p {
+    margin-top: 30px;
+    font-size: 28px;
+}
+.block .read {
+    padding-top: 40px;
+}
+.block span {
+    font-size: 20px;
+    background-color: #e2a355;
+    padding: 12px 40px;
+    border-radius: 50px;
+}
+
+.grid-block2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #deb37e;
+    color: #fff;
+}
+.block {
+    margin: 200px 0 0 50px;
+}
+.block h1 {
+    font-size: 72px;
+}
+.block p {
+    margin-top: 30px;
+    font-size: 28px;
+}
+.block .read {
+    padding-top: 40px;
+}
+.block span {
+    font-size: 20px;
+    background-color: #e2a355;
+    padding: 12px 40px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.hiking {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 200px;
+    background-color: #99928d;
+}
+.hiking h1 {
+    font-size: 44px;
+}
+.hiking p {
+    margin-top: 20px;
+    font-size: 24px;
+}
+img.bg-bure2 {
+    position: absolute;
+    top: 75%;
+}
+
+section.explore {
+    margin-top: 150px;
+}
+.explore {
+    width: 100%;
+    height: 1114px;
+    background-image: url("../img/background3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.head {
+    text-align: right;
+    padding-top: 520px;
+    padding-right: 300px;
+}
+.head i.EXPLORE {
+    display: block;
+    font-size: 72px;
+    color: #deb37e;
+}
+.head i.WORLD {
+    font-size: 72px;
+    color: #54524f;
+}
