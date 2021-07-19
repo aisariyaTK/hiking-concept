@@ -4,12 +4,6 @@
     box-sizing: border-box;
     font-family: 'Kalam', cursive;
 }
-/* .container {
-    max-width: 1350px;
-    width: 100%;
-    margin: 0 auto;
-} */
-
 
 /* header */
 
@@ -44,14 +38,16 @@ ul.menu-bar li a {
     text-align: right;
     margin-right: 100px;
 }
-i.fa.fa-search {
+.search button {
     font-size: 24px;
     color: #69645f;
     text-align: right;
     margin-top: 32px;
-    padding: 8px 30px 8px 100px;
+    padding: 5px 30px 5px 100px;
     background-color: #c3bfbc;
+    border: 1px solid #c3bfbc;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 /* section content */
@@ -86,13 +82,14 @@ main {
     font-size: 24px;
     color: #54524f;
 }
-.heading span {
-    display: inline-block;
+.heading button {
     margin-top: 70px;
-    background-color: #fffefd;
     padding: 10px 35px;
-    border-radius: 50px;
+    font-size: 18px;
     color: #776c64;
+    background-color: #fffefd;
+    border: 1px solid #fffefd;
+    border-radius: 50px;
 }
 .heading i.paragraph {
     margin-top: 50px;
@@ -139,10 +136,11 @@ main {
     margin-top: 100px;
     text-align: center;
 }
-.show-more span {
+.show-more button {
     font-size: 20px;
     background-color: #7f7770;
-    padding: 12px 70px;
+    padding: 12px 80px;
+    border: 1px solid #7f7770;
     border-radius: 50px;
     color: #fff;
 }
@@ -177,10 +175,11 @@ div.block p {
 .block .read {
     padding-top: 40px;
 }
-.block span {
+.block button {
     font-size: 20px;
     background-color: #e2a355;
     padding: 12px 40px;
+    border: 1px solid #e2a355;
     border-radius: 50px;
 }
 
@@ -203,10 +202,11 @@ div.block {
 .block .read {
     padding-top: 40px;
 }
-.block span {
+.block button {
     font-size: 20px;
     background-color: #e2a355;
     padding: 12px 40px;
+    border: 1px solid #e2a355;
     border-radius: 50px;
     color: #fff;
 }
@@ -270,6 +270,9 @@ section.exp {
     justify-content: center;
     column-gap: 50px;
 }
+.lorem h2 {
+    color: #e2a355;
+}
 
 .ipsum {
     margin-top: 150px;
@@ -314,7 +317,8 @@ section.title {
     margin-top: 50px;
 }
 .email input {
-    padding: 8px 180px 8px 20px;
+    width: 25%;
+    padding: 8px 20px;
     border: 1px solid #fff;
     border-radius: 50px;
     font-size: 18px;
@@ -339,10 +343,14 @@ footer {
     padding-top: 100px;
     padding-bottom: 80px;
     display: grid;
-    grid-template-columns: 580px 1fr 1fr 1fr;
-    justify-items: center;
+    grid-template-columns: 700px 1fr;
     color: #fff;
 }
+
+.title-here {
+    padding-left: 150px;
+}
+
 .title-here h3 {
     font-size: 24px;
 }
@@ -379,18 +387,25 @@ footer {
     background-color: #fff;
 }
 
+.about {
+    float: left;
+    padding-right: 100px;
+}
+.services {
+    float: left;
+    padding-right: 100px;
+}
 
-
-.abount h3 {
+.about h3 {
     font-size: 24px;
 }
-.abount ul {
+.about ul {
     margin-top: 10px;
 }
-.abount ul li {
+.about ul li {
     list-style: none;
 }
-.abount ul li a {
+.about ul li a {
     text-decoration: none;
     color: #fff;
 }
@@ -422,3 +437,273 @@ footer {
     text-decoration: none;
     color: #fff;
 }
+
+
+@media only screen and (max-width: 1200px) {
+
+    
+  
+  }
+  @media only screen and (max-width: 992px) {
+    
+
+
+  }
+  
+  @media only screen and (max-width: 768px) {
+
+
+    
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+
+
+  }
+  
+  
+  
+  @media only screen and (max-width: 480px){
+  
+    header {
+        height: auto;
+    }
+    .grid-menu {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .bran img {
+        margin-left: 0;
+    }
+
+    ul.menu-bar li a {
+        font-size: 14px;
+    }
+    .search button {
+        font-size: 18px;
+        padding: 3px 30px 3px 100px;
+    }
+
+    div.search {
+        margin: 0;
+        text-align: center;
+    }
+    .content-heading {
+        height: 400px;
+        margin-top: 20px;
+    }
+    .heading {
+        padding-top: 100px;
+        margin-left: 25px;
+    }
+    .heading h1 {
+        font-size: 28px;
+    }
+    .heading i {
+        font-size: 10px;
+    }
+    .heading button {
+        margin-top: 10px;
+        padding: 5px 20px;
+        font-size: 10px;
+        color: #776c64;
+    }
+    .heading i.paragraph {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    div.let-go {
+        margin-top: 50px;
+    }
+    .let-go h1 {
+        font-size: 28px;
+    }
+    .let-go p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .grid-item {
+        grid-template-columns: 275px;
+        row-gap: 20px;
+    }
+    .show-more button {
+        font-size: 16px;
+        padding: 10px 70px;
+    }
+    img.bg-bure1 {
+        top: 92%;
+        width: 60%;
+    }
+
+    .grid-block1 {
+        margin-top: 120px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 540px;
+    }
+    .grid-block1 img {
+        height: 500px;
+    }
+    div.block {
+        margin-top: 50px;
+    }
+    div.block h1 {
+        font-size: 36px;
+    }
+    div.block p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .block .read {
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    .read button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .grid-block2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 540px;
+    }
+    .grid-block2 img {
+        height: 500px;
+    }
+    div.block {
+        margin-top: 120px;
+    }
+    div.block h1 {
+        font-size: 36px;
+    }
+    div.block p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .block .read {
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    .read button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .hiking {
+        height: 300px;
+        padding-top: 100px;
+    }
+    .hiking h1 {
+        font-size: 30px;
+    }
+    .hiking p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    img.bg-bure2 {
+        top: 88%;
+        width: 60%;
+    }
+
+    section.exp {
+        margin-top: 100px;
+    }
+    .explore {
+        height: 500px;
+    }
+    .head {
+        padding-top: 210px;
+        padding-right: 10px;
+    }
+    .head i.EXPLORE, .head i.WORLD {
+        font-size: 24px;
+    }
+    .grid-lorem {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    img.bg-bure3 {
+        top: 53%;
+        width: 60%;
+    }
+    .ipsum h1 {
+        font-size: 54px;
+    }
+    .ipsum p {
+        font-size: 12px;
+    }
+    .ipsum p.li {
+        padding-bottom: 70px;
+        font-size: 14px;
+    }
+
+    section.title {
+        height: 250px;
+    }
+    .title h1 {
+        font-size: 28px;
+    }
+    .title p {
+        font-size: 12px;
+    }
+    .email input {
+        font-size: 14px;
+        width: 45%;
+        padding: 5px 10px;
+    }
+    .email button {
+        font-size: 12px;
+        padding: 7px 10px;
+        left: -5%;
+    }
+
+    .grid-footer {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .title-here {
+        padding-left: 30px;
+    }
+    .about {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .services {
+        padding-right: 20px;
+    }
+
+    .title-here h3 {
+        font-size: 18px;
+    }
+    .title-here p {
+        font-size: 14px;
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+    .about ul li a {
+        font-size: 14px;
+    }
+    
+    .services h3 {
+        font-size: 24px;
+    }
+    .services ul li a {
+        font-size: 14px;
+    }
+
+    .other h3 {
+        font-size: 24px;
+    }
+    .other ul li a {
+        font-size: 14px;
+    }
+  }
