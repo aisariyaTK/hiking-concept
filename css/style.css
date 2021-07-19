@@ -114,7 +114,7 @@ main {
 .grid-item {
     margin-top: 70px;
     display: grid;
-    grid-template-columns: 275px 275px 275px;
+    grid-template-columns: 278px 278px 278px;
     column-gap: 60px;
     justify-content: center;
 }
@@ -441,25 +441,636 @@ footer {
 
 @media only screen and (max-width: 1200px) {
 
+    .grid-menu {
+        display: grid;
+        grid-template-columns: 20% 1fr 20%;
+    }
+    .menu-bar {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        align-items: center;
+    
+    }
+    .bran img {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .heading {
+        padding-top: 270px;
+    }
+    .heading h1 {
+        font-size: 72px;
+    }
+    .grid-footer {
+        grid-template-columns: 400px 1fr;
+    }
+    .title-here {
+        padding-left: 70px;
+        padding-right: 10px;
+    }
     
   
   }
   @media only screen and (max-width: 992px) {
     
+    .grid-menu {
+        grid-template-columns: 120px 1fr 150px;
+    }
+    .bran img {
+        margin-left: 20px;
+    }
+    ul.menu-bar li a {
+        font-size: 14px;
+    }
+    .search {
+        margin: 0;
+    }
+    .search button {
+        font-size: 16px;
+        margin-right: 20px;
+        margin-top: 40px;
+        padding: 2px 10px 2px 70px;
+    }
+    div.content-heading {
+        height: 600px;
+    }
 
+    .content-heading {
+        height: 400px;
+        margin-top: 20px;
+    }
+    .heading {
+        padding-top: 80px;
+        margin-left: 35px;
+    }
+    .heading h1 {
+        font-size: 48px;
+    }
+    .heading i {
+        font-size: 12px;
+    }
+    .heading button {
+        margin-top: 10px;
+        padding: 6px 20px;
+        font-size: 12px;
+        color: #776c64;
+    }
+    .heading i.paragraph {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    div.let-go {
+        margin-top: 70px;
+    }
+    .let-go h1 {
+        font-size: 36px;
+    }
+    .let-go p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .grid-item {
+        grid-template-columns: 278px;
+        row-gap: 20px;
+    }
+    img.bg-bure1 {
+        width: 50%;
+        top: 90%;
+    }
+    .grid-block1 {
+        margin-top: 100px;
+    }
+    .grid-block1 img {
+        height: 450px;
+    }
+
+    div.block {
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+    div.block h1 {
+        font-size: 28px;
+    }
+    div.block p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .block .read {
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    .read button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .grid-block2 img {
+        height: 450px;
+    }
+
+    div.block {
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+    div.block h1 {
+        font-size: 28px;
+    }
+    div.block p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .block .read {
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    .read button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .hiking {
+        height: 300px;
+        padding-top: 80px;
+        margin-top: 100px;
+    }
+    .hiking h1 {
+        font-size: 36px;
+    }
+    .hiking p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    img.bg-bure2 {
+        top: 78%;
+        width: 50%;
+    }
+
+    section.exp {
+        margin-top: 100px;
+    }
+    .explore {
+        height: 360px;
+    }
+    .head {
+        padding-top: 130px;
+        padding-right: 50px;
+    }
+    .head i.EXPLORE, .head i.WORLD {
+        font-size: 36px;
+    }
+    .grid-lorem {
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    img.bg-bure3 {
+        top: 53%;
+        width: 50%;
+    }
+    .ipsum h1 {
+        font-size: 64px;
+    }
+    .ipsum p {
+        font-size: 17px;
+    }
+    .ipsum p.li {
+        padding-bottom: 70px;
+        font-size: 16px;
+    }
+
+    section.title {
+        height: 250px;
+    }
+    .title {
+        padding: 30px 0;
+    }
+    .title h1 {
+        font-size: 36px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .email input {
+        font-size: 14px;
+        width: 45%;
+        padding: 5px 10px;
+    }
+    .email button {
+        font-size: 12px;
+        padding: 7px 10px;
+        left: -5%;
+    }
+
+    .grid-footer {
+        grid-template-columns: 250px 1fr;
+        row-gap: 20px;
+        padding: 100px 0 50px 0;
+    }
+    
+    .title-here {
+        padding-left: 20px;
+    }
+    .about {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .services {
+        padding-right: 10px;
+    }
+
+    .title-here h3 {
+        font-size: 18px;
+    }
+    .title-here p {
+        font-size: 14px;
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+    .about ul li a {
+        font-size: 14px;
+    }
+    
+    .services h3 {
+        font-size: 24px;
+    }
+    .services ul li a {
+        font-size: 14px;
+    }
+
+    .other h3 {
+        font-size: 24px;
+    }
+    .other ul li a {
+        font-size: 14px;
+    }
 
   }
   
   @media only screen and (max-width: 768px) {
 
+    .grid-menu {
+        grid-template-columns: 120px 1fr 150px;
+    }
+    .bran img {
+        margin-left: 20px;
+    }
+    ul.menu-bar li a {
+        font-size: 14px;
+    }
+    .search {
+        margin: 0;
+    }
+    .search button {
+        font-size: 16px;
+        margin-right: 20px;
+        margin-top: 40px;
+        padding: 2px 10px 2px 70px;
+    }
+    .content-heading {
+        height: 480px;
+    }
 
+    .content-heading {
+        height: 400px;
+        margin-top: 20px;
+    }
+    .heading {
+        padding-top: 100px;
+        margin-left: 35px;
+    }
+    .heading h1 {
+        font-size: 36px;
+    }
+    .heading i {
+        font-size: 12px;
+    }
+    .heading button {
+        margin-top: 10px;
+        padding: 6px 20px;
+        font-size: 12px;
+        color: #776c64;
+    }
+    .heading i.paragraph {
+        margin-top: 10px;
+        font-size: 10px;
+    }
     
+    div.let-go {
+        margin-top: 70px;
+    }
+    .let-go h1 {
+        font-size: 36px;
+    }
+    .let-go p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .grid-item {
+        grid-template-columns: 278px;
+        row-gap: 20px;
+    }
+    img.bg-bure1 {
+        width: 50%;
+        top: 90%;
+    }
+    .grid-block1 {
+        margin-top: 100px;
+    }
+    .grid-block1 img {
+        height: 450px;
+    }
+
+    div.block {
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+    div.block h1 {
+        font-size: 28px;
+    }
+    div.block p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .block .read {
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    .read button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .grid-block2 img {
+        height: 450px;
+    }
+
+    div.block {
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+    div.block h1 {
+        font-size: 28px;
+    }
+    div.block p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .block .read {
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    .read button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .hiking {
+        height: 300px;
+        padding-top: 80px;
+        margin-top: 100px;
+    }
+    .hiking h1 {
+        font-size: 36px;
+    }
+    .hiking p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    img.bg-bure2 {
+        top: 78%;
+        width: 50%;
+    }
+
+    section.exp {
+        margin-top: 100px;
+    }
+    .explore {
+        height: 360px;
+    }
+    .head {
+        padding-top: 130px;
+        padding-right: 50px;
+    }
+    .head i.EXPLORE, .head i.WORLD {
+        font-size: 36px;
+    }
+    .grid-lorem {
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    img.bg-bure3 {
+        top: 53%;
+        width: 50%;
+    }
+    .ipsum h1 {
+        font-size: 64px;
+    }
+    .ipsum p {
+        font-size: 17px;
+    }
+    .ipsum p.li {
+        padding-bottom: 70px;
+        font-size: 16px;
+    }
+
+    section.title {
+        height: 250px;
+    }
+    .title {
+        padding: 30px 0;
+    }
+    .title h1 {
+        font-size: 36px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .email input {
+        font-size: 14px;
+        width: 45%;
+        padding: 5px 10px;
+    }
+    .email button {
+        font-size: 12px;
+        padding: 7px 10px;
+        left: -5%;
+    }
+
+    .grid-footer {
+        grid-template-columns: 250px 1fr;
+        row-gap: 20px;
+        padding: 100px 0 50px 0;
+    }
+    
+    .title-here {
+        padding-left: 20px;
+    }
+    .about {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .services {
+        padding-right: 10px;
+    }
+
+    .title-here h3 {
+        font-size: 18px;
+    }
+    .title-here p {
+        font-size: 14px;
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+    .about ul li a {
+        font-size: 14px;
+    }
+    
+    .services h3 {
+        font-size: 24px;
+    }
+    .services ul li a {
+        font-size: 14px;
+    }
+
+    .other h3 {
+        font-size: 24px;
+    }
+    .other ul li a {
+        font-size: 14px;
+    }
+    
+
   }
   
   @media only screen and (max-width: 600px) {
-  
+    
+    header {
+        height: auto;
+    }
+    .grid-menu {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .bran {
+        grid-area: 1 / 1 / 2 / 3;
+        margin-bottom: 20px;
+    }
+    .bran img {
+        margin-left: 0;
+    }
+    ul.menu-bar {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .search {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .search button {
+        margin: 0;
+        margin-left: 10px;
+        text-align: center;
+        padding: 2px 10px 2px 70px;
+    }
+    .heading h1 {
+        font-size: 28px;
+    }
+    .heading i.paragraph {
+        font-size: 8px;
+    }
 
+    .grid-block1 img {
+        height: 340px;
+    }
+    div.block {
+        margin-top: 80px;
+    }
+    div.block h1 {
+        font-size: 20px;
+    }
+    div.block p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .block .read {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .read button {
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+    .grid-block2 img {
+        height: 340px;
+    }
 
+    .hiking h1 {
+        font-size: 32px;
+    }
+    .hiking p {
+        font-size: 14px;
+    }
+    .ipsum p {
+        font-size: 14px;
+    }
+    .head {
+        padding-right: 20px;
+    }
+
+    .grid-footer {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+    
+    .title-here {
+        padding-left: 30px;
+    }
+
+    .title-here h3 {
+        font-size: 24px;
+    }
+    .title-here p {
+        font-size: 16px;
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+    .about ul li a {
+        font-size: 16px;
+    }
+    
+    .services h3 {
+        font-size: 24px;
+    }
+    .services ul li a {
+        font-size: 16px;
+    }
+
+    .other h3 {
+        font-size: 24px;
+    }
+    .other ul li a {
+        font-size: 16px;
+    }
   }
   
   
@@ -525,7 +1136,7 @@ footer {
     }
 
     .grid-item {
-        grid-template-columns: 275px;
+        grid-template-columns: 278px;
         row-gap: 20px;
     }
     .show-more button {
@@ -540,11 +1151,8 @@ footer {
     .grid-block1 {
         margin-top: 120px;
         grid-template-columns: 1fr;
-        grid-template-rows: 540px;
     }
-    .grid-block1 img {
-        height: 500px;
-    }
+
     div.block {
         margin-top: 50px;
     }
@@ -557,7 +1165,7 @@ footer {
     }
     .block .read {
         padding-top: 10px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     .read button {
         font-size: 12px;
@@ -566,28 +1174,6 @@ footer {
 
     .grid-block2 {
         grid-template-columns: 1fr;
-        grid-template-rows: 540px;
-    }
-    .grid-block2 img {
-        height: 500px;
-    }
-    div.block {
-        margin-top: 120px;
-    }
-    div.block h1 {
-        font-size: 36px;
-    }
-    div.block p {
-        margin-top: 10px;
-        font-size: 18px;
-    }
-    .block .read {
-        padding-top: 10px;
-        padding-bottom: 100px;
-    }
-    .read button {
-        font-size: 12px;
-        padding: 8px 15px;
     }
 
     .hiking {
@@ -666,6 +1252,7 @@ footer {
         grid-template-columns: 1fr;
         row-gap: 20px;
         padding-bottom: 30px;
+        padding-top: 50px;
     }
     
     .title-here {
