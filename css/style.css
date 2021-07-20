@@ -1121,6 +1121,7 @@ footer {
     }
     .grid-menu {
         grid-template-columns: 1fr;
+        row-gap: 10px;
     }
     .bran {
         grid-area: 1 / 1 / 2 / 4;
@@ -1135,7 +1136,6 @@ footer {
     }
     .search {
         grid-area: 3 / 1 / 4 / 3;
-        padding-top: 20px;
     }
     .search button {
         font-size: 12px;
@@ -1298,7 +1298,7 @@ footer {
     .email button {
         font-size: 12px;
         padding: 7px 10px;
-        left: -5%;
+        left: -7%;
     }
 
     .grid-footer {
@@ -1312,30 +1312,5 @@ footer {
     .title-here {
         padding: 0;
     }
-    .title-here h3 {
-        font-size: 18px;
-    }
-    .title-here p {
-        font-size: 14px;
-    }
-    .about h3 {
-        font-size: 24px;
-    }
-    .about ul li a {
-        font-size: 14px;
-    }
-    
-    .services h3 {
-        font-size: 24px;
-    }
-    .services ul li a {
-        font-size: 14px;
-    }
 
-    .other h3 {
-        font-size: 24px;
-    }
-    .other ul li a {
-        font-size: 14px;
-    }
   }
