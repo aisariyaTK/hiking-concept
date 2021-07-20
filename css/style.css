@@ -161,9 +161,10 @@ section {
     grid-template-columns: repeat(2, 1fr);
     background-color: #7f7770;
     color: #fff;
+    justify-items: center;
 }
 div.block {
-    margin: 160px 0 0 50px;
+    margin-top: 160px;
 }
 div.block h1 {
     font-size: 56px;
@@ -188,9 +189,10 @@ div.block p {
     grid-template-columns: repeat(2, 1fr);
     background-color: #deb37e;
     color: #fff;
+    justify-items: center;
 }
 div.block {
-    margin: 160px 0 0 50px;
+    margin-top: 160px;
 }
 .block h1 {
     font-size: 56px;
@@ -433,31 +435,200 @@ footer {
 @media only screen and (max-width: 1200px) {
 
     .grid-menu {
-        display: grid;
         grid-template-columns: 20% 1fr 20%;
     }
-    .menu-bar {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        text-align: center;
-        align-items: center;
-    
-    }
+
     .bran img {
         margin-top: 10px;
         margin-left: 50px;
     }
+    .content-heading {
+        height: 800px;
+    }
     .heading {
-        padding-top: 270px;
+        padding-top: 200px;
     }
     .heading h1 {
         font-size: 72px;
     }
-
-    
+    .grid-block1 img {
+        height: 600px;
+    }
+    .grid-block1 .block {
+        margin-top: 150px;
+    }
+    .grid-block1 .block h1 {
+        font-size: 48px;
+    }
+    .grid-block1 .block p {
+        font-size: 24px;
+    }
+    .block .read {
+        padding-top: 20px;
+    }
+    .block .read button {
+        font-size: 12px;
+        width: 150px;
+    }
+    .grid-block2 img {
+        height: 600px;
+    }
+    .grid-block2 .block {
+        margin-top: 150px;
+    }
+    .grid-block2 .block h1 {
+        font-size: 48px;
+    }
+    .grid-block2 .block p {
+        font-size: 24px;
+    }
+    .head {
+        padding-right: 90px;
+    }
+    .grid-lorem {
+        column-gap: 10px;
+    }
+    .grid-footer {
+        grid-template-columns: 400px 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    .title-here {
+        padding: 0;
+    }
   
   }
-  @media only screen and (min-width: 769px) and (max-width: 800px) {
+
+  @media only screen and (max-width: 992px) {
+
+    .content-heading {
+        height: 700px;
+    }
+    .heading {
+        padding-top: 200px;
+        margin-left: 35px;
+    }
+    .heading h1 {
+        font-size: 62px;
+    }
+    .heading i {
+        font-size: 20px;
+    }
+    .heading button {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .heading i.paragraph {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .grid-item {
+        grid-template-columns: 278px;
+    }
+    img.bg-bure1 {
+        width: 60%;
+        top: 90%;
+    }
+
+    .grid-block1 img {
+        height: 500px;
+    }
+    .grid-block1 .block {
+        margin-top: 120px;
+    }
+    .grid-block1 .block h1 {
+        font-size: 36px;
+    }
+    .grid-block1 .block p {
+        font-size: 18px;
+    }
+    .block .read {
+        padding-top: 15px;
+    }
+    .block .read button {
+        font-size: 12px;
+        width: 150px;
+    }
+    .grid-block2 img {
+        height: 500px;
+    }
+    .grid-block2 .block {
+        margin-top: 120px;
+    }
+    .grid-block2 .block h1 {
+        font-size: 36px;
+    }
+    .grid-block2 .block p {
+        font-size: 18px;
+    }
+
+    .hiking {
+        height: 300px;
+        padding-top: 70px;
+    }
+    .hiking h1 {
+        font-size: 42px;
+    }
+    .hiking p {
+        font-size: 20px;
+    }
+    img.bg-bure2 {
+        width: 60%;
+    }
+    .explore {
+        height: 360px;
+    }
+
+    .head {
+        padding: 120px 20px 0 0;
+    }
+    .head i.EXPLORE, .head i.WORLD {
+        font-size: 48px;
+    }
+    .grid-lorem {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+    .ipsum {
+        margin-top: 100px;
+    }
+    .ipsum p {
+        font-size: 16px;
+    }
+    img.bg-bure3 {
+        width: 60%;
+        top: 75%;
+    }
+    .title h1 {
+        font-size: 42px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .email input {
+        font-size: 14px;
+        width: 45%;
+        padding: 5px 10px;
+    }
+    .email button {
+        font-size: 12px;
+        padding: 7px 20px;
+        left: -5%;
+    }
+    .grid-footer {
+        grid-template-columns: 350px 1fr 1fr 1fr;
+        justify-items: center;
+        padding: 50px 0;
+    }
+    .title-here {
+        padding: 0;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 800px) {
     
     .search button {
         font-size: 16px;
@@ -465,14 +636,134 @@ footer {
         margin-top: 40px;
         margin-left: 30px;
     }
-
+    .content-heading {
+        height: 650px;
+    }
     .heading {
-        padding-top: 290px;
+        padding-top: 170px;
         margin-left: 35px;
     }
     .heading h1 {
-        font-size: 64px;
+        font-size: 54px;
     }
+    .heading i {
+        font-size: 18px;
+    }
+    .heading button {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .heading i.paragraph {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .grid-item {
+        grid-template-columns: 278px;
+    }
+    img.bg-bure1 {
+        width: 60%;
+        top: 90%;
+    }
+    
+    .grid-block1 img {
+        height: 500px;
+    }
+    .grid-block1 .block {
+        margin-top: 120px;
+    }
+    .grid-block1 .block h1 {
+        font-size: 36px;
+    }
+    .grid-block1 .block p {
+        font-size: 18px;
+    }
+    .block .read {
+        padding-top: 15px;
+    }
+    .block .read button {
+        font-size: 12px;
+        width: 150px;
+    }
+    .grid-block2 img {
+        height: 500px;
+    }
+    .grid-block2 .block {
+        margin-top: 120px;
+    }
+    .grid-block2 .block h1 {
+        font-size: 36px;
+    }
+    .grid-block2 .block p {
+        font-size: 18px;
+    }
+
+    .hiking {
+        height: 300px;
+        padding-top: 70px;
+    }
+    .hiking h1 {
+        font-size: 42px;
+    }
+    .hiking p {
+        font-size: 20px;
+    }
+    img.bg-bure2 {
+        width: 60%;
+    }
+    .explore {
+        height: 360px;
+    }
+
+    .head {
+        padding: 120px 20px 0 0;
+    }
+    .head i.EXPLORE, .head i.WORLD {
+        font-size: 48px;
+    }
+    .grid-lorem {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+    .ipsum {
+        margin-top: 100px;
+    }
+    .ipsum p {
+        font-size: 16px;
+    }
+    img.bg-bure3 {
+        width: 60%;
+        top: 75%;
+    }
+    .title h1 {
+        font-size: 42px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .email input {
+        font-size: 14px;
+        width: 45%;
+        padding: 5px 10px;
+    }
+    .email button {
+        font-size: 12px;
+        padding: 7px 20px;
+        left: -5%;
+    }
+    .grid-footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        row-gap: 20px;
+        padding: 50px 0;
+    }
+    .title-here {
+        padding: 0;
+    }
+
 
   }
   
@@ -496,8 +787,143 @@ footer {
         font-size: 16px;
         padding: 2px 10px 2px 60px;
     }
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     
+    .content-heading {
+        height: 500px;
+    }
+    .heading {
+        padding-top: 130px;
+        margin-left: 25px;
+    }
+    .heading h1 {
+        font-size: 48px;
+    }
+    .heading i {
+        font-size: 16px;
+    }
+    .heading button {
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .heading i.paragraph {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .let-go {
+        margin-top: 50px;
+    }
+    .let-go h1 {
+        font-size: 42px;
+    }
+    .let-go p {
+        font-size: 16px;
+    }
+    .grid-item {
+        grid-template-columns: 278px;
+    }
+    img.bg-bure1 {
+        width: 60%;
+        top: 90%;
+    }
+    
+    .grid-block1 img {
+        height: 400px;
+    }
+    .grid-block1 .block {
+        margin-top: 100px;
+    }
+    .grid-block1 .block h1 {
+        font-size: 24px;
+    }
+    .grid-block1 .block p {
+        font-size: 16px;
+    }
+    .block .read {
+        padding-top: 15px;
+    }
+    .block .read button {
+        font-size: 12px;
+        width: 150px;
+    }
+    .grid-block2 img {
+        height: 400px;
+    }
+    .grid-block2 .block {
+        margin-top: 100px;
+    }
+    .grid-block2 .block h1 {
+        font-size: 24px;
+    }
+    .grid-block2 .block p {
+        font-size: 16px;
+    }
+
+    .hiking {
+        height: 300px;
+        padding-top: 70px;
+    }
+    .hiking h1 {
+        font-size: 36px;
+    }
+    .hiking p {
+        font-size: 16px;
+    }
+    img.bg-bure2 {
+        width: 60%;
+    }
+    .explore {
+        height: 360px;
+    }
+
+    .head {
+        padding: 120px 20px 0 0;
+    }
+    .head i.EXPLORE, .head i.WORLD {
+        font-size: 42px;
+    }
+    .grid-lorem {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+    .ipsum {
+        margin-top: 100px;
+    }
+    .ipsum p {
+        font-size: 16px;
+    }
+    img.bg-bure3 {
+        width: 60%;
+        top: 75%;
+    }
+    .title h1 {
+        font-size: 42px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .email input {
+        font-size: 14px;
+        width: 45%;
+        padding: 5px 10px;
+    }
+    .email button {
+        font-size: 12px;
+        padding: 7px 20px;
+        left: -5%;
+    }
+    .grid-footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        row-gap: 20px;
+        padding: 50px 0;
+    }
+    .title-here {
+        padding: 0;
+    }
 
   }
   
@@ -595,7 +1021,7 @@ footer {
     }
     .block .read button {
         font-size: 12px;
-        width: 120px;
+        width: 150px;
     }
 
     .grid-block2 {
@@ -726,7 +1152,7 @@ footer {
     }
     .content-heading {
         margin-top: 20px;
-        height: 400px;
+        height: 450px;
     }
     .heading {
         padding-top: 120px;
@@ -796,7 +1222,7 @@ footer {
     }
     .block .read button {
         font-size: 12px;
-        width: 120px;
+        width: 150px;
     }
 
     .grid-block2 {
